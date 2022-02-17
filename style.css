@@ -18,3 +18,31 @@
 .container {
   margin-bottom: 100px;
 }
+.cat1 {
+  background-color: #ffa500;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+}
+.cat2 {
+  background-color: #da70d6;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+}
+.cat3 {
+  background-color: #0000ff;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+}
+.category img {
+  width: 100px;
+}
+@media (max-width: 770px) {
+  .cat1,
+  .cat2,
+  .cat3 {
+    margin-bottom: 10px;
+  }
+}
