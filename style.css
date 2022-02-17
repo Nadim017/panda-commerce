@@ -46,3 +46,25 @@
     margin-bottom: 10px;
   }
 }
+.card-shadow {
+  box-shadow: 5px 5px 10px lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border: none;
+}
+.card-footer {
+  border: none;
+  background-color: white;
+}
+.bag {
+  box-shadow: 5px 5px 10px lightgray;
+}
+.contact {
+  background: #fceae8;
+  height: 300px;
+}
+.contact h6 {
+  color: gray;
+}
